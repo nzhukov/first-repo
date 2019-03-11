@@ -1,3 +1,5 @@
 
-print('hello, world!')
+s = "Hello, world!"
 
+
+print(s)
