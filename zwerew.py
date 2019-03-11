@@ -1,3 +1,2 @@
-a = ["hello", "world"]
-for i in a:
-	print(i)
+import hashlib
+print(hashlib.md5(b"hello, hash!").hexdigest())
