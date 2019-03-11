@@ -1,3 +1,6 @@
-#print('123456+')
-s='hello, world'
-print(s)
+import hashlib
+s=b'hello world'
+md5_string=hashlib.md5(s)
+
+res = md5_string.digest()
+print(res)
