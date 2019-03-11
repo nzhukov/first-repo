@@ -3,7 +3,9 @@ import hashlib
 # https://docs.python.org/3/library/hashlib.html
 
 
-s = b"Hello, world!"
+# s = b"Hello, world!"
+
+s = input("Enter hashed string: ")
 
 print(s)
 
