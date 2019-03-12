@@ -12,3 +12,11 @@ import hashlib
 
 
 def main():
+    import string
+    
+    alphabet_l = string.ascii_lowercase
+    alphabet_u = string.ascii_uppercase
+    
+    input_s = "Hello, world!"   
+       
+main()
